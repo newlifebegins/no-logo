@@ -17,14 +17,14 @@
 							<dt>无印良品</dt>
 							<dd>让您爱上极简的家</dd>
 						</dl>
-					</a>			
+					</a>
 				</h1>
 				<form action="" class="form_search">
 					<input type="text" placeholder="请输入">
 					<input type="submit" value="搜索">
 				</form>
-			</div>			
-		</div>		
+			</div>
+		</div>
 	</header>
 	<nav>
 		<div class="nav">
@@ -48,20 +48,20 @@
 					<li><a href="#">清仓甩卖</a></li>
 					<li><a href="#">购物保障</a></li>
 				</ul>
-			</div>		
-		</div>		
+			</div>
+		</div>
 	</nav>
 	<section>
 		<div class="banner">
-			<div class="swiper-container">
+			<div class="swiper-container" style="width: 100%;">
 			    <div class="swiper-wrapper">
-			        <div class="swiper-slide"><img src="images/banner.png" alt=""></div>
-			        <div class="swiper-slide"><img src="images/banner.png" alt=""></div>
-			        <div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+			        <div class="swiper-slide"><img src="images/banner.png" width="100%" alt=""></div>
+			        <div class="swiper-slide"><img src="images/banner.png" width="100%" alt=""></div>
+			        <div class="swiper-slide"><img src="images/banner.png" width="100%" alt=""></div>
 			    </div>
 			    <!-- 如果需要分页器 -->
 			    <div class="swiper-pagination"></div>
-			    
+
 			    <!-- 如果需要导航按钮 -->
 			    <!-- <div class="swiper-button-prev"></div> -->
 			    <!-- <div class="swiper-button-next"></div> -->
@@ -152,7 +152,7 @@
 							    </div>
 							    <!-- 如果需要分页器 -->
 							    <!-- <div class="swiper-pagination"></div> -->
-							    
+
 							    <!-- 如果需要导航按钮 -->
 							    <div class="swiper-button-prev swiper-button-white"></div>
 							    <div class="swiper-button-next swiper-button-white"></div>
@@ -263,7 +263,7 @@
 						</li>
 					</ul>
 				</div>
-			</div>			
+			</div>
 		</div>
 	</section>
 	<footer>
@@ -321,37 +321,39 @@
 			</li>
 		</ul>
 	</div>
-	<script src="js/jquery-1.7.1.min.js"></script>	
+	<script src="js/jquery-1.7.1.min.js"></script>
 	<script src="js/swiper.min.js"></script>
-	<script>        
+	<script>
 	  var mySwiper = new Swiper ('.swiper-container', {
+	  	autoplay : 5000,
 	    direction: 'horizontal',
 	    pagination: '.swiper-pagination',
 	    paginationClickable: true,
 	    loop: true,
-	    
+
 	    // 如果需要分页器
 	    pagination: '.swiper-pagination',
-	    
+
 	    // 如果需要前进后退按钮
 	    // nextButton: '.swiper-button-next',
-    
+
 	    // prevButton: '.swiper-button-prev',
-	  })        
+	  })
 	  var mySwiper1 = new Swiper ('.swiper-container1', {
+	  	autoplay : 5000,
 	    direction: 'horizontal',
 	    // pagination: '.swiper-pagination',
 	    // paginationClickable: true,
 	    loop: true,
-	    
+
 	    // 如果需要分页器
 	    // pagination: '.swiper-pagination',
-	    
+
 	    // 如果需要前进后退按钮
 	    nextButton: '.swiper-button-next',
-	   
+
 	    prevButton: '.swiper-button-prev',
-	  })        
-	  </script>	
+	  })
+	  </script>
 </body>
 </html>
