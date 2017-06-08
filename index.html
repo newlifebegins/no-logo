@@ -354,6 +354,13 @@
 
 	    prevButton: '.swiper-button-prev',
 	  })
+	  $(document).ready(function(){
+	  	$(".desc_btn p").hover(function(){
+	  		$(this).addClass("active");
+	  	},function(){
+	  		$(this).removeClass("active");
+	  	})
+	  })
 	  </script>
 </body>
 </html>
